@@ -1,0 +1,119 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #101010;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-underline-position: under;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.divs {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  margin-bottom: 50px !important;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.divs:hover {
+  cursor: default;
+}
+
+.div1 {
+  border: 2px solid red;
+}
+
+.div2 {
+  border: 2px solid royalBlue;
+}
+
+.div3 {
+  border: 2px solid green;
+}
+
+.div4 {
+  border: 2px solid orange;
+}
+
+.div5 {
+  border: 2px solid white;
+}
+
+.div6 {
+  border: 2px solid violet;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.div6 .div6-in {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  background: violet;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.right {
+  left: calc(100% - 120px);
+}
+
+.ma-auto {
+  margin: auto;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-royalBlue {
+  background: royalBlue;
+}
+
+.bg-green {
+  background: green;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg-violet {
+  background: violet;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #303030;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
